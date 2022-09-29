@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: #A64B2A;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: #FFEBC1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-right: 35%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 19px;
+       
+}
+
+.navbar li a{
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.navbar ul li{
+    margin-left: 40%;
+}
+
+.navbar li a:hover{
+    background-color: #A64B2A;
+}
+
+.navbar a{
+    margin-left: 70%;
+}
+
+.main{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gambar{
+    display: flex;
+}
+
+.main2{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tbl{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58%;
+    width: 10%;
+    border-radius: 10px;
+    margin-left: 56%;
+    margin-right: 14%;
+    background-color: #A64B2A;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.tbl2{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58%;
+    width: 10%;
+    margin-right: 13%;
+    border-radius: 10px;
+    background-color: #A64B2A  ;
+}
+
+.tbl:hover,.tbl2:hover{
+    background-color: #FFEBC1  ;
+    color: black;
+    
+}
+
+
+#img1{
+    height: 50%;
+    width: 50%;
+    margin-left: 5%;
+}
+#img2{
+    height: 38%;
+    width: 41.9%;
+}
+
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: #FFEBC1;
+}
+
+
+
+#about{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
